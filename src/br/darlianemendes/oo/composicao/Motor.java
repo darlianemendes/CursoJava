@@ -5,11 +5,11 @@ public class Motor {
     boolean ligado = false;
     double fatorInjecao = 1;
 
-    Motor(Carro carro){
+    public Motor(Carro carro){
         this.carro = carro;
     }
 
-    int giros() {
+    public int giros() {
         if (!ligado) {
             return 0;
         } else {

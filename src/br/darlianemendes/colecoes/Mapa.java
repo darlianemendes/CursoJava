@@ -25,6 +25,7 @@ public class Mapa {
 
         System.out.println(usuarios.get(4));
 
+        //para cada chave dentro de usuarios.keySet
         for (int chave : usuarios.keySet()) {
             System.out.println(chave);
         }

@@ -11,6 +11,8 @@ public class ExercicioForEach {
                 System.out.print(idCadastros + "");
             }
 
+            System.out.println();
+
             //outra forma
             for (int i = 0; i < idCadastro.length; i++){
                 System.out.println(idCadastro[i] + "");

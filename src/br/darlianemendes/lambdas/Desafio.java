@@ -18,6 +18,7 @@ public class Desafio {
         Function<String, String> formatar =
                 preco -> ("R$" + preco).replace(".", ",");
 
+
         Produto p = new Produto("iPad", 3235.89,0.13);
         String preco = precoFinal
                 .andThen(impostoMunicipal)

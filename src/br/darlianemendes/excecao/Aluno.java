@@ -1,10 +1,10 @@
-package br.darlianemendes.streams;
+package br.darlianemendes.excecao;
 
 public class Aluno {
 
-    final String nome;
-    final double nota;
-    final boolean bomComportamento;
+    public final String nome;
+    public final double nota;
+    public final boolean bomComportamento;
 
     public Aluno(String nome, double nota){
         this(nome,nota,true);
